@@ -1,0 +1,14 @@
+1. Use the plugin Go from Microsoft on VSCode for using Go with ease
+2. Go to Ctrl+SHift+P  and search for Go:Install/Update Tools and select all and install them.
+3. Keep doing this once or twice a week to get the latest version.
+
+
+Creating a go module
+    -> go mod init path (path is always unique -> ex: <github>/<username>/<project_name> || <website>/<project_name>)
+    -> running the above command create a go.mod file which indicates it's a go module. 
+
+Running a go file:
+    -> go run filename
+    -> go run module_path (ex: go run github.com/website/webserver)
+
+
