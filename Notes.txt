@@ -11,4 +11,9 @@ Running a go file:
     -> go run filename
     -> go run module_path (ex: go run github.com/website/webserver)
 
+Variables can be declared in go using three ways : for reference, check: variable.go file.
 
+Pointers arithmetic is not supported in go, as its, error prone, for more details on using pointer : pointers.go
+
+iota resets within the const block, iota has a default value of 0, and keeps incrementing everytime its used by 1
+for more details : iota.go
