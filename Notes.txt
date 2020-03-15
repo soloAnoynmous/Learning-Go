@@ -17,3 +17,5 @@ Pointers arithmetic is not supported in go, as its, error prone, for more detail
 
 iota resets within the const block, iota has a default value of 0, and keeps incrementing everytime its used by 1
 for more details : iota.go
+
+slicing is a concept borrowed from python, it's similar to how we do slicing in python.
